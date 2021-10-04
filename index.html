@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#009578">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatibale" content="ie=edge">
+    <link rel="stylesheet" href="mask.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="mask.js"></script>
+    <link rel="apple-touch-icon" href="icon192.png">
+    <title></title>
+
+
+<script>
+
+    if('serviceWorker' in navigator){
+        navigator.serviceWorker.register('sw.js');
+    };
+
+</script>
+
+
+
+</head>
+
+<body>
+
+
+    <center>
+
+        <div style="width: 500px; border: 5px solid #23ad9d">
+
+            <center>
+                <h1>Sri lankan Covid 19 RealTime Update</h1>
+                <br>
+                <center>
+                    <p>New covid cases : <span id="newcases"></span></p> </br>
+                    <p>Total covid cases : <span id="newtotal"></span></p> </br>
+                    <p>New Deaths : <span id="covidlkn"></span></p> </br>
+                    <p>Total Deaths : <span id="covidlk"></span></p> </br>
+                    <p>Recoverd Patients : <span id="newrecoverd"></span></p> </br>
+                    <p>Update Time: <span id="newupdate"></span></p> </br>
+                </center>
+                <center><br>
+
+                    <div>
+                        <h4>Develop & Design by Poorna Ranasinghe</h4>
+                        <h4> Powred by www.hpb.health.gov.lk</h4>
+                    </div>
+                </center>
+        </div>
+        </div>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{
+    "short_name":"PWA",
+    "name":"My PWA prototype",
+    "icons":[
+        {
+            "src":"/images/icon192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+
+        },
+        {
+
+            "src":"/images/icon512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+
+
+
+        }
+    ],
+
+    "start_url":"/index.html",
+    "background_color":"#000000",
+    "display":"standalone",
+    "theme_color":"#ff0000"
+}
