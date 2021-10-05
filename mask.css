@@ -21,13 +21,19 @@ span {
 @media only screen and (max-width: 840px) {
   .mobile {
     width: 200px;
-    border: #e02f44;
+    border: 5px solid red;
+  }
+
+  p {
+    color: balck;
+    font-weight: bold;
+    font-size: small;
   }
 }
 
 @media only screen and (max-width: 1298px) {
   .mobile {
     width: 200px;
-    border: black;
+    border: 5px solid rebeccapurple;
   }
 }
