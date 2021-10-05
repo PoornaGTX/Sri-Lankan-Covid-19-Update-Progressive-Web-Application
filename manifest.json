@@ -1,6 +1,6 @@
 {
-    "short_name":"PWA",
-    "name":"My PWA prototype",
+    "short_name":"SL Covid update",
+    "name":"SL Covid-19 realtime update",
     "icons":[
         {
             "src":"./images/icon192.png",
