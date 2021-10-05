@@ -19,6 +19,13 @@
                   document.getElementById('newupdate').textContent = actualdata.data.update_date_time;
                 
                 
+                  document.getElementById('newcasesglobal').textContent = actualdata.data.global_new_cases;
+                  document.getElementById('newtotalglobal').textContent = actualdata.data.global_total_cases;
+                  document.getElementById('covidlknglobal').textContent = actualdata.data.global_new_deaths;
+                  document.getElementById('covidlkglobal').textContent = actualdata.data.global_deaths;
+                  document.getElementById('newrecoverdglobal').textContent = actualdata.data.global_recovered;
+                  document.getElementById('newupdateglobal').textContent = actualdata.data.update_date_time;
+                
 
                    console.log(actualdata);
 

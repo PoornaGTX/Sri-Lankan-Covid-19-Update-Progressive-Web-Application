@@ -42,3 +42,12 @@ span {
     font-size: small;
   }
 }
+
+@media only screen and (min-width: 900px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
