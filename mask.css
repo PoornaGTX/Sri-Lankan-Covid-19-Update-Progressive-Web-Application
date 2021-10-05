@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: #4b6263;
+  background-color: #14ccc3;
 }
 
 p {
@@ -40,14 +40,5 @@ span {
     color: black;
     font-weight: bold;
     font-size: small;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
   }
 }
