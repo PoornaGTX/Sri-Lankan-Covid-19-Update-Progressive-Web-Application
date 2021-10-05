@@ -10,7 +10,7 @@ p {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.footer p {
+.footer > p {
   font-family: "Courier New", monospace;
 }
 
