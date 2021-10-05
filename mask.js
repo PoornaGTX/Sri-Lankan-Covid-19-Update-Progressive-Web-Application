@@ -2,7 +2,7 @@
  function getData(){
              fetch('https://www.hpb.health.gov.lk/api/get-current-statistical')
              .then((apidata)=> {
-                    console.log(apidata);
+                    //console.log(apidata);
                     return apidata.json();
 
               }).then((actualdata) => {
