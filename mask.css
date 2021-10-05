@@ -30,6 +30,11 @@ span {
   font-family: Tahoma, sans-serif;
 }
 
+.letterclass {
+  letter-spacing: 3px;
+  color: #6b6965;
+}
+
 @media only screen and (max-width: 840px) {
   .mobile {
     width: 300px;
