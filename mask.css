@@ -4,7 +4,7 @@
 }
 
 p {
-  color: balck;
+  color: black;
   font-weight: bold;
   font-size: larger;
 }
@@ -20,12 +20,12 @@ span {
 
 @media only screen and (max-width: 840px) {
   .mobile {
-    width: 200px;
+    width: 300px;
     border: 5px solid red;
   }
 
   p {
-    color: balck;
+    color: black;
     font-weight: bold;
     font-size: small;
   }
@@ -33,7 +33,13 @@ span {
 
 @media only screen and (max-width: 1298px) {
   .mobile {
-    width: 200px;
-    border: 5px solid rebeccapurple;
+    width: 300px;
+    border: 5px solid black;
+  }
+
+  p {
+    color: red;
+    font-weight: bold;
+    font-size: small;
   }
 }
