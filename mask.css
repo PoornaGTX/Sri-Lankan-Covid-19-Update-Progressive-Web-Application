@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #4b6263;
+}
 
 p {
   color: black;
@@ -10,7 +13,7 @@ p {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.footer > p {
+.footer h4 {
   font-family: "Courier New", monospace;
 }
 
@@ -21,6 +24,10 @@ span {
 .mobile {
   width: 800px;
   border: 5px solid #23ad9d;
+}
+.mobile h1 {
+  font-size: x-large;
+  font-family: Tahoma, sans-serif;
 }
 
 @media only screen and (max-width: 840px) {
