@@ -14,8 +14,7 @@ p {
 }
 
 .footer h4 {
-  font-size: large;
-  letter-spacing: 5px;
+  font-size: medium;
   font-family: "Courier New", monospace;
 }
 
@@ -47,10 +46,5 @@ span {
     color: black;
     font-weight: bold;
     font-size: small;
-  }
-
-  .footer h4 {
-    font-size: medium;
-    font-family: "Courier New", monospace;
   }
 }
