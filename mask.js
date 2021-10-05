@@ -24,7 +24,7 @@
                   document.getElementById('covidlknglobal').textContent = actualdata.data.global_new_deaths;
                   document.getElementById('covidlkglobal').textContent = actualdata.data.global_deaths;
                   document.getElementById('newrecoverdglobal').textContent = actualdata.data.global_recovered;
-                  document.getElementById('newupdateglobal').textContent = actualdata.data.update_date_time;
+                  document.getElementById('newupdate').textContent = actualdata.data.update_date_time;
                 
 
                    console.log(actualdata);
