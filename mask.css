@@ -14,6 +14,7 @@ p {
 }
 
 .footer h4 {
+  font-size: medium;
   font-family: "Courier New", monospace;
 }
 
@@ -23,7 +24,7 @@ span {
 
 .mobile {
   width: 800px;
-  border: 5px solid white;
+  border: 5px solid #6b6965;
 }
 .mobile h1 {
   font-size: x-large;
@@ -38,7 +39,7 @@ span {
 @media only screen and (max-width: 840px) {
   .mobile {
     width: 300px;
-    border: 5px solid white;
+    border: 5px solid #6b6965;
   }
 
   p {
