@@ -1,9 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body {
-  background-color: #14ccc3;
+html{
+  min-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right bottom,#21D2FE , #5D84FD 25%, #A234FD 80%);
+}
+
+.container{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 p {
@@ -13,34 +26,55 @@ p {
   font-family: "Trebuchet MS", sans-serif;
 }
 
-.footer h4 {
-  font-size: large;
-  letter-spacing: 5px;
-  font-family: "Courier New", monospace;
-}
-
 span {
-  color: #e02f44;
+  color: #fff;
+}
+.types{
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 100%;
 }
 
-.mobile {
-  width: 800px;
-  border: 5px solid black;
+.mobile{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(to right bottom,#21D2FE , #5D84FD 25%, #A234FD 80%);
+  border: #21D2FE solid 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #fff;
 }
-.mobile h1 {
-  font-size: x-large;
-  font-family: Tahoma, sans-serif;
+
+.mobile h1{
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .letterclass {
   letter-spacing: 3px;
-  color: #6b6965;
+  font-size: 3rem;
+  color: #e6e1e1;
+  text-align: center;
+  margin: 20px;
 }
-
+.footer{
+  margin: 20px;
+  color: #fff;
+}
+.footer h4{
+  font-size: 1rem;
+  letter-spacing: 5px;
+  font-family: "Courier New", monospace;
+}
 @media only screen and (max-width: 840px) {
   .mobile {
-    width: 300px;
-    border: 5px solid black;
+    width: 350px;
+    border: 1px solid #fff;
   }
 
   p {
@@ -48,7 +82,6 @@ span {
     font-weight: bold;
     font-size: small;
   }
-
   .footer h4 {
     font-size: medium;
     font-family: "Courier New", monospace;

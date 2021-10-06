@@ -30,7 +30,7 @@
                    console.log(actualdata);
 
                 }).catch((error) => {
-
+                  console.log(error);
                 });
              }
 getData();
