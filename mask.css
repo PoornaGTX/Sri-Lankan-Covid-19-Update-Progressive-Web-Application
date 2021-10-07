@@ -65,6 +65,7 @@ span {
 .mobile h1{
   margin-bottom: 20px;
   text-align: center;
+  color: #ff4d4d;
 }
 
 .letterclass {
@@ -73,6 +74,7 @@ span {
   color: #e6e1e1;
   text-align: center;
   margin: 20px;
+  font-family: Tahoma, sans-serif
 }
 .footer{
   margin: 20px;
