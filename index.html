@@ -1,88 +1,61 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="theme-color" content="#009578">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatibale" content="ie=edge">
     <link rel="stylesheet" href="mask.css">
     <link rel="manifest" href="manifest.json">
-    <script src="mask.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="apple-touch-icon" href="icon192.png">
-    <title></title>
-
-
-<script>
-
-    if('serviceWorker' in navigator){
-        navigator.serviceWorker.register('./sw.js');
-    };
-
-</script>
-
-
-
+    <title>Covid19 tracker</title>
 </head>
-
 <body>
-
-<br>
-<br>
-
-   
-    <center>
-      <h1 class="letterclass">Be safe ! Wear a mask </h1>
-      <br>
-        <div class="mobile">
-
-            <center>
-                <br>
-                <h1>Sri lankan Covid 19 RealTime Update</h1>
-                <br>
-                <center>
-                    <p>New covid cases : <span id="newcases"></span></p> </br>
-                    <p>Total covid cases : <span id="newtotal"></span></p> </br>
-                    <p>New Deaths : <span id="covidlkn"></span></p> </br>
-                    <p>Total Deaths : <span id="covidlk"></span></p> </br>
-                    <p>Recoverd Patients : <span id="newrecoverd"></span></p> </br>
-                    <p>Update Time: <span id="newupdate"></span></p> </br>
-                </center>
-
+    <div class="container">
+        <h1 class="letterclass">Be safe ! Wear a mask </h1>
+        <div class="types">
+              <div class="mobile" id="sl">
+                      <h1>Sri lankan Covid 19 RealTime Update</h1>
+                      <div>
+                          <p>New covid cases : <span id="newcases"></span></p> </br>
+                          <p>Total covid cases : <span id="newtotal"></span></p> </br>
+                          <p>New Deaths : <span id="covidlkn"></span></p> </br>
+                          <p>Total Deaths : <span id="covidlk"></span></p> </br>
+                          <p>Recoverd Patients : <span id="newrecoverd"></span></p> </br>
+                          <p>Update Time: <span id="newupdate"></span></p> </br>
+                      </div>
+              </div>
+              <div class="mobile" id="global">
+              
+            
+                      
+                      <h1>Global Covid 19 RealTime Update</h1>
+              
+                      <div>
+                          <p>New global covid cases : <span id="newcasesglobal"></span></p> </br>
+                          <p>Total global covid cases : <span id="newtotalglobal"></span></p> </br>
+                          <p>New global Deaths : <span id="covidlknglobal"></span></p> </br>
+                          <p>Total global Deaths : <span id="covidlkglobal"></span></p> </br>
+                          <p>Recoverd global Patients : <span id="newrecoverdglobal"></span></p> </br>
+                          <p>Update Time: <span id="newupdateglobal"></span></p> </br>
+                      </div>
+                </div>
         </div>
-
-        <br>
-
-        <div class="mobile">
-        
-            <center>
-                <br>
-                <h1>Global Covid 19 RealTime Update</h1>
-                <br>
-                <center>
-                    <p>New global covid cases : <span id="newcasesglobal"></span></p> </br>
-                    <p>Total global covid cases : <span id="newtotalglobal"></span></p> </br>
-                    <p>New global Deaths : <span id="covidlknglobal"></span></p> </br>
-                    <p>Total global Deaths : <span id="covidlkglobal"></span></p> </br>
-                    <p>Recoverd global Patients : <span id="newrecoverdglobal"></span></p> </br>
-                    <p>Update Time: <span id="newupdateglobal"></span></p> </br>
-                </center>
-            </div>
-
-                <center><br>
-
-                    <div class="footer">
-                        <h4>Develop & Design by Poorna Ranasinghe</h4>
-                        <h4> Powred by www.hpb.health.gov.lk</h4>
-                    </div>
-                </center>
-            </center>
+        <div class="footer">
+                              <h4>Develop & Design by Poorna Ranasinghe</h4>
+                              <h4> Powred by www.hpb.health.gov.lk</h4>
         </div>
-     
-    </center>
+    </div>
 
 
-  
+      <!-- scripts -->
+      <script src="mask.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+
+            if('serviceWorker' in navigator){
+                navigator.serviceWorker.register('./sw.js');
+            };
+
+            </script>
 </body>
-
 </html>
