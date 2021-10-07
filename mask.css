@@ -29,6 +29,12 @@ p {
   font-family: "Trebuchet MS", sans-serif;
 }
 
+.footer h4 {
+  font-size: medium;
+  font-family: "Courier New", monospace;
+}
+
+
 span {
   color: #fff;
 }
@@ -91,9 +97,9 @@ span {
     font-weight: bold;
     font-size: small;
   }
+
   .footer h4 {
     font-size: medium;
     font-family: "Courier New", monospace;
   }
-}
 
