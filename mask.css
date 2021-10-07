@@ -65,7 +65,7 @@ span {
 .mobile h1{
   margin-bottom: 20px;
   text-align: center;
-  color: #ff4d4d;
+  color: black;
 }
 
 .letterclass {
@@ -97,7 +97,7 @@ span {
   p {
     color: black;
     font-weight: bold;
-    font-size: small;
+    font-size: medium;
   }
 
   .footer h4 {
